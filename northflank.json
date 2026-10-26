@@ -1,0 +1,22 @@
+{
+  "$schema": "https://api.northflank.com/v1/schemas/template",
+  "apiVersion": "v1.2",
+  "spec": {
+    "kind": "Workflow",
+    "spec": {
+      "type": "sequential",
+      "steps": []
+    }
+  },
+  "options": {
+    "autorun": false,
+    "concurrencyPolicy": "allow"
+  },
+  "gitops": {
+    "repoUrl": "https://github.com/lqbyly9-prog/korrecpnow",
+    "vcsService": "github",
+    "accountLogin": "lqbyly9-prog",
+    "branch": "main",
+    "filePath": "/northflank.json"
+  }
+}
